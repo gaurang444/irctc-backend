@@ -19,5 +19,5 @@ from django.urls import path,include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('zepto/api/', include('irctc.urls')),
+    path('zepto/irctc/api/', include('irctc.urls')),
 ]
